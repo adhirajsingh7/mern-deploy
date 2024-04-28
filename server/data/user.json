@@ -1,0 +1,9 @@
+{
+  "username": "john123",
+  "email": "john@email.com",
+  "password": "123",
+  "full_name": "john wick",
+  "avatar": "",
+  "mobile": 123,
+  "role": "admin"
+}

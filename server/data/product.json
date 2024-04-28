@@ -1,0 +1,8 @@
+{
+  "name": "burger",
+  "image": "",
+  "description": "it is fast food",
+  "price": 200,
+  "stock": 2,
+  "category": "food"
+}

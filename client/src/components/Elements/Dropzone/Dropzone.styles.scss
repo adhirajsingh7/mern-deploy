@@ -1,0 +1,47 @@
+.dropzone-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+  border-width: 2px;
+  border-radius: 8px;
+  border-style: dashed;
+  background-color: #fafafa;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+}
+
+.upload-outer-container {
+  padding: 4px;
+  border: 1px dashed #15c4da;
+  border-radius: 80px;
+  background-color: #ecf9fc;
+}
+
+.upload-inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4px;
+  border: 1px dashed #15c4da;
+  border-radius: 80px;
+  background-color: #cff2f8;
+}
+
+.avatar-display-image {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #0bbfda;
+}
+
+.product-display-image {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 25%;
+  border: 4px solid #0bbfda;
+}
