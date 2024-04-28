@@ -17,7 +17,8 @@ const app = express();
 app.use(morgan("tiny"));
 app.use(
   cors({
-    origin: process.env.CORS_ORIGIN,
+    origin: "https://mern-deploy-app.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     credentials: true,
   })
 );
