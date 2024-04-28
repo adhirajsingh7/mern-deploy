@@ -13,7 +13,7 @@ import theme from "./theme/theme.ts";
 import "react-toastify/dist/ReactToastify.css";
 import "./styles/global.styles.scss";
 
-axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL;
+axios.defaults.baseURL = https://mern-deploy-server.vercel.app;
 axios.defaults.withCredentials = true;
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
